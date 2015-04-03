@@ -16,14 +16,14 @@ namespace CSharpReview.Delegate.UseDelegate
         }
     }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            SpeakerManager manager = new SpeakerManager();
-            manager.SpeakeGreeting("Nate Liu", ChineseSpeaker.Greeting);
-            manager.SpeakeGreeting("Nate Liu", EnglishSpeaker.Greeting);
-            Console.ReadLine();
-        }
-    }
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        SpeakerManager manager = new SpeakerManager();
+    //        manager.SpeakeGreeting("Nate Liu", ChineseSpeaker.Greeting);
+    //        manager.SpeakeGreeting("Nate Liu", EnglishSpeaker.Greeting);
+    //        Console.ReadLine();
+    //    }
+    //}
 }

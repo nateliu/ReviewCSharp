@@ -40,11 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delegate\05UseDelegateToPerformObserverWithEventAccessor.cs" />
     <Compile Include="Delegate\04UseDelegateWithEvent.cs" />
     <Compile Include="Delegate\03UseDelegateWithOO.cs" />
     <Compile Include="Delegate\02UseDelegate.cs" />
     <Compile Include="Delegate\01DelegatePrevious.cs" />
+    <Compile Include="Delegate\07UseDelegateToPerformObserverWithTimeOut.cs" />
     <Compile Include="Delegate\Speakers.cs" />
+    <Compile Include="Delegate\06UseDelegateToPerformObserverWithException.cs" />
+    <Compile Include="Delegate\Subscribers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
