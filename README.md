@@ -3,14 +3,29 @@ and intersted in coding,  you can fork this. :)
 <br/>
 Right now, I have following threads to review it:<br/>
 ##1. Delegate
-<li> What is delegate ?</li> 
-<li> Which thing can do with delegate?</li>
+<ul>
+	<li> What is delegate ?</li>
+</ul>
+<ul> 
+	<li> Which thing can do with delegate?</li>
+</ul>
+<ul>
 <li> What relationship between delegate and event?</li>
-<li> What relationship between delegate and APM program pattern? </li>
-<li> How to perform Observe pattern with delegate.</li>
+</ul>
+<ul>
+	<li> What relationship between delegate and APM program pattern? </li>
+</ul>
+<ul>
+	<li> How to perform Observe pattern with delegate.</li>
+</ul>
 ##2. Thread 
-<li> ThreadStart </li>
-<li> ParameterizedThreadStart </li>
+<ul>
+	<li> ThreadStart </li>
+</ul>
+<ul>
+	<li> ParameterizedThreadStart </li>
+</ul>
+<ul>
 <li> ThreadPool 
 	<ul>ThreadPool.QueueUserWorkItem(WaitCallback)</ul>
 	<ul>ThreadPool.QueueUserWorkItem(WaitCallback,Object)</ul>
@@ -20,7 +35,7 @@ Right now, I have following threads to review it:<br/>
 		<li>IsCompleted </li>
 	</ul>
 </li>
-
+</ul>
 ##3. MSIL 
 ##4. Design Pattern </h4>
 ##....
