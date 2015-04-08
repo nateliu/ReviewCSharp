@@ -40,22 +40,22 @@ namespace CSharpReview.Delegate.UseDelegateToPerformObserverWithTimeOut
         }
     }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Publishser pub = new Publishser();
-            SubscriberWithTimeOut1 sub1 = new SubscriberWithTimeOut1();
-            SubscriberWithTimeOut2 sub2 = new SubscriberWithTimeOut2();
-            Subscriber3 sub3 = new Subscriber3();
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Publishser pub = new Publishser();
+    //        SubscriberWithTimeOut1 sub1 = new SubscriberWithTimeOut1();
+    //        SubscriberWithTimeOut2 sub2 = new SubscriberWithTimeOut2();
+    //        Subscriber3 sub3 = new Subscriber3();
 
-            pub.NumberChanged += sub1.OnNumberChanged;
-            pub.NumberChanged += sub2.OnNumberChanged;
-            pub.NumberChanged += sub3.OnNumberChanged;
+    //        pub.NumberChanged += sub1.OnNumberChanged;
+    //        pub.NumberChanged += sub2.OnNumberChanged;
+    //        pub.NumberChanged += sub3.OnNumberChanged;
 
-            pub.DoNumberChanged(100);
+    //        pub.DoNumberChanged(100);
 
-            Console.ReadLine();
-        }
-    }
+    //        Console.ReadLine();
+    //    }
+    //}
 }
