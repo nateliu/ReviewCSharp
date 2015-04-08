@@ -10,13 +10,13 @@ Right now, I have following threads to review it:<br/>
 	<li> Which thing can do with delegate?</li>
 </ul>
 <ul>
-<li> What relationship between delegate and event?</li>
+	<li> What relationship between delegate and event?</li>
 </ul>
 <ul>
 	<li> What relationship between delegate and APM program pattern? </li>
 </ul>
 <ul>
-	<li> How to perform Observe pattern with delegate.</li>
+	<li> How to perform Observer pattern with delegate.</li>
 </ul>
 ##2. Thread 
 <ul>
