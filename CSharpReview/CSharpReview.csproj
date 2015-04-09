@@ -49,13 +49,15 @@
     <Compile Include="Delegate\Speakers.cs" />
     <Compile Include="Delegate\06UseDelegateToPerformObserverWithException.cs" />
     <Compile Include="Delegate\Subscribers.cs" />
+    <Compile Include="OOP\01OverloadingEarlyBindingCompilePolymorphism.cs" />
+    <Compile Include="OOP\02RuntimePolymorphism.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Thread\Message.cs" />
-    <Compile Include="Thread\MessageDelegateAsync.cs" />
-    <Compile Include="Thread\MessageParameterizedThreadStart.cs" />
-    <Compile Include="Thread\MessageThreadPoolQueueUserWorkItem.cs" />
-    <Compile Include="Thread\MessageThreadStart.cs" />
+    <Compile Include="Thread\04MessageDelegateAsync.cs" />
+    <Compile Include="Thread\02MessageParameterizedThreadStart.cs" />
+    <Compile Include="Thread\03MessageThreadPoolQueueUserWorkItem.cs" />
+    <Compile Include="Thread\01MessageThreadStart.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Delegate\Readme.txt" />
