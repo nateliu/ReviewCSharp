@@ -45,7 +45,7 @@ Right now, I have following threads to review it:<br/>
 	<li>Polymorphism
 		<ul>
 			<li>Method Overloading or Early Binding or Compile Time Polymorphism</li>
-			<li>Runtime Polymorphism</li>
+			<li>Method Overloading or Late Binding or Runtime Polymorphism</li>
 		</ul>
 	</li>
 </ul>

@@ -5,23 +5,27 @@ using System.Text;
 
 namespace CSharpReview.OOP
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            ClassA a = new ClassD();
-            ClassB b = new ClassD();
-            ClassC c = new ClassD();
-            ClassD d = new ClassD();
+    /// <summary>
+    /// be more and more carefully the keyword of override. this keyword will cut the root tree.
+    /// and be carefull the keyword of virtual in the base class.
+    /// </summary>
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        ClassA a = new ClassD();
+    //        ClassB b = new ClassD();
+    //        ClassC c = new ClassD();
+    //        ClassD d = new ClassD();
 
-            a.XXX();
-            b.XXX();
-            c.XXX();
-            d.XXX();
+    //        a.XXX();
+    //        b.XXX();
+    //        c.XXX();
+    //        d.XXX();
 
-            Console.ReadLine();
-        }
-    }
+    //        Console.ReadLine();
+    //    }
+    //}
 
     public class ClassA
     {
