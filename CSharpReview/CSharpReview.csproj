@@ -52,6 +52,7 @@
     <Compile Include="OOP\01OverloadingEarlyBindingCompilePolymorphism.cs" />
     <Compile Include="OOP\02RuntimePolymorphism.cs" />
     <Compile Include="OOP\03InheritanceTrap.cs" />
+    <Compile Include="OOP\04EnumManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Thread\Message.cs" />

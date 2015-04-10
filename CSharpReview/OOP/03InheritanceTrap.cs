@@ -5,15 +5,15 @@ using System.Text;
 
 namespace CSharpReview.OOP.Trap
 {
-    public class Program
-    {
-        private static void Main(string[] args)
-        {
-            ClassA a = new ClassB();
-            a.XXX();
-            Console.ReadLine();
-        }
-    }
+    //public class Program
+    //{
+    //    private static void Main(string[] args)
+    //    {
+    //        ClassA a = new ClassB();
+    //        a.XXX();
+    //        Console.ReadLine();
+    //    }
+    //}
 
     public class ClassA
     {
