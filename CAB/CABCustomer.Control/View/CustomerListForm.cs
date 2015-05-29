@@ -35,6 +35,7 @@ namespace CABCustomer.Control.View
             customerList.DataSource = customers;
             customerList.DisplayMember = "FullName";
             customerList.SelectedIndexChanged += new EventHandler(customerList_SelectedIndexChanged);
+            customerList.SelectedIndex = 1;
         }
 
         private void customerList_SelectedIndexChanged(object sender, EventArgs e)
