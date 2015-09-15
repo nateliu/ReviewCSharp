@@ -14,19 +14,19 @@ namespace CSharpReview.OOP.Enumution
     /// </summary>
     public class Program
     {
-        private static void Main(string[] args)
-        {
-            Console.WriteLine((int)UniqueIdType.CUSIP);
-            Console.WriteLine(UniqueIdType.CUSIP);
+        //private static void Main(string[] args)
+        //{
+        //    Console.WriteLine((int)UniqueIdType.CUSIP);
+        //    Console.WriteLine(UniqueIdType.CUSIP);
 
-            Console.WriteLine((int)UniqueIdType.CUSIP.ToNewUniqueIdType());
-            Console.WriteLine(UniqueIdType.CUSIP.ToNewUniqueIdType());
+        //    Console.WriteLine((int)UniqueIdType.CUSIP.ToNewUniqueIdType());
+        //    Console.WriteLine(UniqueIdType.CUSIP.ToNewUniqueIdType());
 
-            Console.WriteLine((int)UniqueIdType.ABC.ToNewUniqueIdType());
-            Console.WriteLine(UniqueIdType.ABC.ToNewUniqueIdType());
+        //    Console.WriteLine((int)UniqueIdType.ABC.ToNewUniqueIdType());
+        //    Console.WriteLine(UniqueIdType.ABC.ToNewUniqueIdType());
 
-            Console.ReadLine();
-        }
+        //    Console.ReadLine();
+        //}
     }
 
 

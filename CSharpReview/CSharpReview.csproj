@@ -63,6 +63,8 @@
     <Compile Include="Thread\02MessageParameterizedThreadStart.cs" />
     <Compile Include="Thread\03MessageThreadPoolQueueUserWorkItem.cs" />
     <Compile Include="Thread\01MessageThreadStart.cs" />
+    <Compile Include="Windbg\01VSString.cs" />
+    <Compile Include="Windbg\02StayStringPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Delegate\Readme.txt" />
@@ -70,6 +72,7 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
