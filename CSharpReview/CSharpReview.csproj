@@ -52,6 +52,7 @@
     <Compile Include="Delegate\Speakers.cs" />
     <Compile Include="Delegate\06UseDelegateToPerformObserverWithException.cs" />
     <Compile Include="Delegate\Subscribers.cs" />
+    <Compile Include="Misc\DomainRetriever.cs" />
     <Compile Include="OOP\01OverloadingEarlyBindingCompilePolymorphism.cs" />
     <Compile Include="OOP\02RuntimePolymorphism.cs" />
     <Compile Include="OOP\03InheritanceTrap.cs" />
