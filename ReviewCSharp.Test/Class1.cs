@@ -5,7 +5,11 @@ using System.Text;
 
 namespace ReviewCSharp.Test
 {
-    public class Class1
+    class Class1
     {
+        void Test()
+        {
+            Console.WriteLine("Hello,　World!");
+        }
     }
 }
