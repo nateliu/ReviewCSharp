@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpReview", "CSharpRevie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewCSharp.Test", "ReviewCSharp.Test\ReviewCSharp.Test.csproj", "{C89A57AA-D806-454C-8729-242F9BDEE503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{038BFDB2-05FD-4FC1-A078-DA322A522A5B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,10 +19,6 @@ Global
 		{C89A57AA-D806-454C-8729-242F9BDEE503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C89A57AA-D806-454C-8729-242F9BDEE503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C89A57AA-D806-454C-8729-242F9BDEE503}.Release|Any CPU.Build.0 = Release|Any CPU
-		{038BFDB2-05FD-4FC1-A078-DA322A522A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{038BFDB2-05FD-4FC1-A078-DA322A522A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{038BFDB2-05FD-4FC1-A078-DA322A522A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{038BFDB2-05FD-4FC1-A078-DA322A522A5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

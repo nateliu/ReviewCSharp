@@ -52,31 +52,31 @@ namespace CSharpReview.Misc
         }
 
 
-        private static void Main(string[] args)
-        {
-            string[] Urls = new string[] 
-            {
-                "http://www.jonasjohn.de/snippets/csharp/",
-                "www.jonasjohn.de/snippets/csharp/",
-                "http://www.jonasjohn.de/",
-                "ftp://www.jonasjohn.de/",
-                "www.jonasjohn.de/",
-                "http://www.sharejs.com/codes/",
-                "https://subdomain.abc.def.jonasjohn.de/test.htm",
-                "http://www.163.com/",
-                "http://mail.163.com/",
-                "http://slknate.cnblogs.com/"
-            };
+        //private static void Main(string[] args)
+        //{
+        //    string[] Urls = new string[] 
+        //    {
+        //        "http://www.jonasjohn.de/snippets/csharp/",
+        //        "www.jonasjohn.de/snippets/csharp/",
+        //        "http://www.jonasjohn.de/",
+        //        "ftp://www.jonasjohn.de/",
+        //        "www.jonasjohn.de/",
+        //        "http://www.sharejs.com/codes/",
+        //        "https://subdomain.abc.def.jonasjohn.de/test.htm",
+        //        "http://www.163.com/",
+        //        "http://mail.163.com/",
+        //        "http://slknate.cnblogs.com/"
+        //    };
 
             // Test all urls with all different methods:
-            foreach (string Url in Urls)
-            {
-                Console.WriteLine("Method 1: {0}", ExtractDomainNameFromURL_Method1(Url));
-                Console.WriteLine("Method 2: {0}", ExtractDomainNameFromURL_Method2(Url));
-                Console.WriteLine("Method 3: {0}", ExtractDomainNameFromURL_Method3(Url));
-            }
+        //    foreach (string Url in Urls)
+        //    {
+        //        Console.WriteLine("Method 1: {0}", ExtractDomainNameFromURL_Method1(Url));
+        //        Console.WriteLine("Method 2: {0}", ExtractDomainNameFromURL_Method2(Url));
+        //        Console.WriteLine("Method 3: {0}", ExtractDomainNameFromURL_Method3(Url));
+        //    }
 
-            Console.ReadLine();
-        }
+        //    Console.ReadLine();
+        //}
     }
 }

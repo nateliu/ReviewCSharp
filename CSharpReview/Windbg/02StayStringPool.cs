@@ -8,18 +8,18 @@ namespace CSharpReview.Windbg
 {
     public class StayStringPool
     {
-        static void Main(string[] args)
-        {
-            int i = 0;
-            while (true)
-            {
-                SimpleString(i++);
+        //static void Main(string[] args)
+        //{
+        //    int i = 0;
+        //    while (true)
+        //    {
+        //        SimpleString(i++);
 
-                Console.WriteLine(i + " : Run GC.Collect()");
-                GC.Collect();
-                Console.ReadLine();
-            }
-        }
+        //        Console.WriteLine(i + " : Run GC.Collect()");
+        //        GC.Collect();
+        //        Console.ReadLine();
+        //    }
+        //}
 
         private static void SimpleString(int i)
         {
